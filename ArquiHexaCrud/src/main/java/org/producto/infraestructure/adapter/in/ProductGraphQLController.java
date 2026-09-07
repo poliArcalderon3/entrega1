@@ -20,8 +20,8 @@ public class ProductGraphQLController {
     public record ProductoInput(
             String nombre,
             String descripcion,
-            Double precio,
-            Integer stock
+            Double precio
+
     ) {}
 
     @QueryMapping
